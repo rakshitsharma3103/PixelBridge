@@ -1,0 +1,214 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&family=Lato:wght@100;300;400&family=Poppins:wght@100;200;400;500&family=Ubuntu&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&family=Poppins:wght@100;200;400;500&family=Ubuntu&family=Varela+Round&display=swap');
+
+@media (min-width: 768px) {
+    body {
+      font-size: 18px;
+    }
+  }
+  
+  /* Media query for desktops */
+  @media (min-width: 1200px) {
+    body {
+      font-size: 20px;
+    }
+  }
+img{
+    max-width: 100%;
+    height: auto;
+    height: 60px;
+}
+
+#right{
+    margin-left: 50vh;
+}
+.nav-item active{
+    margin-left: 70px;
+}
+.nav-link{
+    text-decoration: none; 
+    color: #333; 
+    transition: border-bottom-color 0.3s;
+  }
+  
+  
+.nav-link:hover {
+    padding-top: 5px;
+    border-bottom: 2px solid #333;
+  }
+.banner{
+    min-height: 48px;
+    text-align: center;
+    background-color: #efece6;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 5%;
+    display: flex;
+}
+nav{
+    margin-left: 25px;
+    margin-right: 75px;
+    background-color: white;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    z-index: 1000;              /* it ensure navbar is above all content in webpage and no overlapping happen*/ 
+}
+h1 {
+    font-size: 6rem;
+    font-weight: 400;
+}
+a{
+    cursor: pointer;
+}
+
+.section-1{
+    height: 500px;
+    padding: 80px 0;
+    margin-top: 100px;
+}
+.div1{
+    margin-left: 100px;
+    height: 250px;
+    width: 850px;
+    float: left;
+}
+.div1 h1{
+    font-size: 6rem;
+}
+.div2{
+    margin-top: 60px;
+    margin-right: 80px;
+    height: 250px;
+    width: 600px;
+    float: right;
+    font-weight: 600;
+    font-size: 24px;
+}
+.btn-outline-dark::before{
+    content: ' ';
+}
+.section-2 img{
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 650px;
+    width: 1500px;
+}
+
+.section-3{
+    margin-top: 50px;
+    height: 650px;
+    width: 1700px;
+    padding: 80px 0;
+}
+.div3{
+    width: 650px;
+    height: 300px;
+    margin-left: 150px;
+    float: left;
+}
+
+.div3 h2{
+    font-size: 3.5rem;
+}
+.div3 p{
+    margin-top: 30px;
+    font-size: 20px;
+    line-height: 50px;
+    float: left;
+}
+.div4{
+    float: right;
+    width: 650px;
+    height: 300px;
+    margin-right: 150px;
+}
+.div4 img{
+    height: 500px;
+    float: right;
+    width: 800px;
+}
+.section-3 button{
+    margin-top: 60px;
+    margin-right: 100px;
+    margin: 30px;
+}
+
+.section-4{
+    height: 600px;
+    width: 1600px;
+    padding: 80px 0;
+}
+.span_1_of_3 {
+        z-index: 5;
+        width: 100%;
+        grid-column-gap: 40px;
+        grid-row-gap: 40px;
+        grid-template-rows: auto;
+        grid-template-columns: 1fr 1fr 1fr;
+        position: relative;
+}
+.section-4 h1{
+    margin-left: 150px;
+    font-size: 3.5rem;
+    text-align: center;
+}
+
+.card-deck{
+    text-align: center;
+    width: 1550px;
+    justify-content: center;
+    margin-top: 45px;
+    justify-content: space-around;
+    height: 270px;
+    
+}
+.card-deck .card{
+    margin-left: 80px;
+    background-color: #efece6;
+    width: 200px
+}
+.section-5{
+   
+    position: relative;
+    height: 550px;
+    background-color: #efece6;
+    margin-left: 90px;
+    margin-right: 100px;
+}
+.div5{
+    width: 700px;
+    margin-top: 20px;
+    float: left;
+}
+.div5 p{
+    font-size: 40px;
+    font-weight: 600;
+    margin-left: 100px;
+}
+.div6{
+   float: right;
+   width: 400px;
+   margin-right: 250px;
+   margin-top: 100px;
+}
+.navbar-brand{
+    color: black;
+}
+.div7{
+margin-left: 80px;
+width: 600px;
+margin-top: 150px;
+}
+.foot table{
+    border-collapse: collapse; /* Collapse borders */
+    width: 900px;
+  }
+
+.table th,
+.table td{
+    border: none;
+    padding: 8px;
+}
